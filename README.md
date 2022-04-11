@@ -19,4 +19,4 @@ Every day is a step forward
 
 ### 🎀 Last Project
 
-Last finished project is a Visual Novel game written in Python called [`The Dark Side of Venice`](https://github.com/Taliayaya/Visual_Novel) (yup I choosed the name), a school project with @LaDameDeFer that went pretty far. 🎊
+Last finished project is a Visual Novel game written in Python called [`The Dark Side of Venice`](https://github.com/Taliayaya/Visual_Novel) (yup I choose the name), a school project with @LaDameDeFer that went pretty far. 🎊
