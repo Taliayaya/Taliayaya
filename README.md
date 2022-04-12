@@ -6,6 +6,7 @@ I'm a 12th grade french student making my way here ! I would be glad to help you
 ### 🛠 Ongoing 
 
 Currently working on [Apando](https://github.com/Taliayaya/apando), a chat website ! Don't hesitate to give us a hand ✨
+A new IT project, [Labyrinthe](https://github.com/Taliayaya/Labyrinthe), about making a labyrinthe simulation is beginning
 
 ### 🎯 Goals
 
@@ -16,6 +17,7 @@ Every day is a step forward
 - Helping you all
 - Keeping improving my Python and Javascript/React
 - Master Japanese
+- Learning Unreal Engine 5
 
 ### 🎀 Last Project
 
