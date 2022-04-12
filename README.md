@@ -1,7 +1,8 @@
 # Hello There, I’m @Taliayaya ✨
 ## Welcome to my Github Page ! 🎉
 
-I'm a 12th grade french student making my way here ! I would be glad to help you in your project or vice-versa !
+I'm a 12th grade french student making my way here ! I would be glad to help you in your project or vice-versa ! <br />
+I'm pround to say I use Arch. Linux and anime lover. Way to go !
 
 ### 🛠 Ongoing 
 
