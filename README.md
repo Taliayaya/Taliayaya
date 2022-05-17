@@ -24,3 +24,11 @@ Every day is a step forward
 ### 🎀 Last Project
 
 Last finished project is a Visual Novel game written in Python called [`The Dark Side of Venice`](https://github.com/Taliayaya/Visual_Novel) (yup I choose the name), a school project with @LaDameDeFer that went pretty far. 🎊
+
+<h2 align="center">Projects</h2>
+
+### [Labyrinthe (2022)](https://github.com/Taliayaya/Labyrinthe)
+A simple project that simulates and resolves a labyrinthe with turtle
+
+### [The Dark Side of Venice - Visual Novel (2022)](https://github.com/Taliayaya/Visual_Novel)
+A visual novel game. The story takes place in Venice, where you try to find out who is the murderer...
