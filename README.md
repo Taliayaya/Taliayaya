@@ -1,4 +1,4 @@
-# Hello There, I’m @Taliayaya ✨
+# Hello There, I’m Ilan Mayeux ✨
 ## Welcome to my Github Page ! 🎉
 
 I'm a 12th grade french student making my way here ! I would be glad to help you in your project or vice-versa ! <br />
