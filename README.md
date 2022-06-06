@@ -4,6 +4,8 @@
 I'm a 12th grade french student making my way here ! I would be glad to help you in your project or vice-versa ! <br />
 I'm pround to say I use Arch. Linux and anime lover. Way to go !
 
+Working in the Somnium Legio Studios dev squad for the Unknow Glory Project. ✨✨
+
 ### 🛠 Ongoing 
 
 Currently working on [Apando](https://github.com/Taliayaya/apando), a chat website ! Don't hesitate to give us a hand ✨
