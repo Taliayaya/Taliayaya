@@ -1,8 +1,8 @@
 # Hello There, I’m Ilan Mayeux ✨
 ## Welcome to my Github Page ! 🎉
 
-I'm a 12th grade french student making my way here ! I would be glad to help you in your project or vice-versa ! <br />
-I'm pround to say I use Arch. Linux and anime lover. Way to go !
+I'm a french first year college student at @Epita making my way here ! I would be glad to help you in your project or vice-versa ! <br />
+Linux user here !
 
 Working in the Somnium Legio Studios dev squad for the Unknown Glory Project. ✨✨
 
@@ -14,12 +14,12 @@ Currently working on [Apando](https://github.com/Taliayaya/apando), a chat websi
 
 Every day is a step forward
 
-- Trying to master C++
+- Trying to master Zig
 - Making even more projects
 - Helping you all
 - Keeping improving my Python and Javascript/React
 - Master Japanese
-- Learning Unreal Engine 5
+- Learning Unreal Engine 4
 
 ### 🎀 Last Project
 
