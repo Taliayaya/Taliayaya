@@ -17,9 +17,9 @@ Every day is a step forward
 - Trying to master Zig
 - Making even more projects
 - Helping you all
-- Keeping improving my Python and Javascript/React
+- Keeping improving my C#, C++ and Javascript/React
 - Master Japanese
-- Learning Unreal Engine 4
+- Learning Unreal Engine 5
 
 ### 🎀 Last Project
 
@@ -27,7 +27,11 @@ Last finished project is a simple Maze simulator : [Labyrinthe](https://github.c
 
 <h2 align="center">📂 Projects</h2>
 
-### 💬 [Apando *(in progress)*](https://github.com/Taliayaya/Apando)
+### 🕹 [Luminosité Éternelle (2023)](https://github.com/Taliayaya/Luminosite-Eternelle-public)
+An adventure multiplayer co-op game where two players try to reach the end of their journey while resolving puzzles, fighting enemies, an traveling a huge mountainous map.
+<div align="center"><img src="https://user-images.githubusercontent.com/84530101/224564001-8ff606ed-e1bf-4f6e-a515-4dec3497833c.png" alt="Luminosité Éternelle" align="center" height="350px" style="border-radius:8px"/></div>
+
+### 💬 [Apando (2022)](https://github.com/Taliayaya/Apando)
 An open-source chat platform designed for students and schools, currently only in french.
 <div align="center"><img src="assets/apando.png" alt="apando" align="center" height="300px" style="border-radius:8%"/></div>
 
