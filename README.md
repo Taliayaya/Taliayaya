@@ -4,11 +4,11 @@
 I'm a french first year college student at @Epita making my way here ! I would be glad to help you in your project or vice-versa ! <br />
 Linux user here !
 
-Working in the Somnium Legio Studios dev squad for the Unknown Glory Project. ✨✨
-
 ### 🛠 Ongoing 
 
-Currently working on [Apando](https://github.com/Taliayaya/apando), a chat website ! Don't hesitate to give us a hand ✨
+Currently working on [Luminosité Eternelle](https://github.com/Taliayaya/Luminosite-Eternelle), my Semester 2 Project on 6 months where I have to create a multiplayer game on Unity in a group of 4. ✨
+
+*Incoming: The Project 86 as a side project*
 
 ### 🎯 Goals
 
@@ -23,7 +23,7 @@ Every day is a step forward
 
 ### 🎀 Last Project
 
-Last finished project is a simple Maze simulator : [Labyrinthe](https://github.com/Taliayaya/Labyrinthe) written in python and using turtle with @La_Dame_De_Fer
+Last finished project is Apando, a chat website.
 
 <h2 align="center">📂 Projects</h2>
 
