@@ -6,9 +6,7 @@ Linux user here !
 
 ### 🛠 Ongoing 
 
-Currently working on [Luminosité Eternelle](https://github.com/Taliayaya/Luminosite-Eternelle), my Semester 2 Project on 6 months where I have to create a multiplayer game on Unity in a group of 4. ✨
-
-*Incoming: The Project 86 as a side project*
+Currently working on [Project 86](https://github.com/Taliayaya/Project-86), an open-source fan game on the universe of the 86:Eighty-Six series, featuring an FPS and RTS mix
 
 ### 🎯 Goals
 
@@ -23,7 +21,7 @@ Every day is a step forward
 
 ### 🎀 Last Project
 
-Last finished project is Apando, a chat website.
+Last finished project is Luminosité Éternelle, my second semester project.
 
 <h2 align="center">📂 Projects</h2>
 
