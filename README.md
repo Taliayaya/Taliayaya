@@ -1,8 +1,7 @@
 # Hello There, I’m Ilan Mayeux ✨
 ## Welcome to my Github Page ! 🎉
 
-I'm a french first year college student at @Epita making my way here ! I would be glad to help you in your project or vice-versa ! <br />
-Linux user here !
+I'm a french second year college student at @Epita making my way here ! I would be glad to help you in your project or vice-versa !
 
 ### 🛠 Ongoing 
 
@@ -12,24 +11,33 @@ Currently working on [Project 86](https://github.com/Taliayaya/Project-86), an o
 
 Every day is a step forward
 
-- Trying to master Zig
 - Making even more projects
 - Helping you all
-- Keeping improving my C#, C++ and Javascript/React
-- Master Japanese
-- Learning Unreal Engine 5
+- Keep improving my C#, C++, C
 
 ### 🎀 Last Project
 
-Last finished project is Luminosité Éternelle, my second semester project.
+Last finished project is the Sudoku OCR, my third semester project.
 
 <h2 align="center">📂 Projects</h2>
 
-### 🕹 [Luminosité Éternelle (2023)](https://github.com/Taliayaya/Luminosite-Eternelle-public)
+### [🎮 Project 86 (Ongoing)](https://github.com/Taliayaya/Project-86)
+
+An open-source fan game on the universe of the 86:Eighty-Six series, featuring an FPS and RTS mix.
+
+### [🧊 3d Renderer (Ongoing)](https://github.com/Taliayaya/3d-renderer)
+
+A little software to display 3d models and play around with them. Made with OpenGL and Linear Algebra (oh no)
+
+### [🎲 Sudoku OCR (2023)](https://github.com/Taliayaya/S3Project)
+
+A software that takes an image of sudoku as an input and gives back the solution. Image preprocessing, grid and digit detection and recognition with a neural network. Made with GTK
+
+### [🕹 Luminosité Éternelle (2023)](https://github.com/Taliayaya/Luminosite-Eternelle-public)
 An adventure multiplayer co-op game where two players try to reach the end of their journey while resolving puzzles, fighting enemies, an traveling a huge mountainous map.
 <div align="center"><img src="https://user-images.githubusercontent.com/84530101/224564001-8ff606ed-e1bf-4f6e-a515-4dec3497833c.png" alt="Luminosité Éternelle" align="center" height="350px" style="border-radius:8px"/></div>
 
-### 💬 [Apando (2022)](https://github.com/Taliayaya/Apando)
+### [💬 Apando (2022)](https://github.com/Taliayaya/Apando)
 An open-source chat platform designed for students and schools, currently only in french.
 <div align="center"><img src="assets/apando.png" alt="apando" align="center" height="300px" style="border-radius:8%"/></div>
 
