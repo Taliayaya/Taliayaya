@@ -17,7 +17,7 @@ Every day is a step forward
 
 ### 🎀 Last Project
 
-Last finished project is the Sudoku OCR, my third semester project.
+Last finished project is the 8086 Interpreter, my fourth semester project.
 
 <h2 align="center">📂 Projects</h2>
 
@@ -28,18 +28,17 @@ An open-source fan game on the universe of the 86:Eighty-Six series, featuring a
 <div align="center"><img src="https://github.com/Taliayaya/Taliayaya/assets/84530101/76e09d9e-1f07-406e-8611-badc345f23c1" alt="Project 86" align="center" height="350px" style="border-radius:8px"/></div>
 
 
-### [🧊 3d Renderer (Ongoing)](https://github.com/Taliayaya/3d-renderer)
-
-A little software to display 3d models and play around with them. Made with OpenGL and Linear Algebra (oh no)
-
-<div align="center"><img src="https://github.com/Taliayaya/Taliayaya/assets/84530101/3e299854-9411-47e8-a37a-606a603e1f8e" alt="Project 86" align="center" height="400px" style="border-radius:8px"/></div>
-
 ### [🖥 8086 Interpreter (2024)](https://github.com/Taliayaya/8086-Interpreter)
 
 Simple Intel 8086 ASM interpreter & disassembler for a 16 bit minix2 OS. 
 
 <div align="center"><img src="https://github.com/user-attachments/assets/42fb3276-529f-442a-849e-243ad35f7ac1" alt="Intel 8086 ASM" align="center" height="400px" style="border-radius:8px"/></div>
 
+### [🧊 3d Renderer (2023)](https://github.com/Taliayaya/3d-renderer)
+
+A little software to display 3d models and play around with them. Made with OpenGL and Linear Algebra (oh no)
+
+<div align="center"><img src="https://github.com/Taliayaya/Taliayaya/assets/84530101/3e299854-9411-47e8-a37a-606a603e1f8e" alt="Project 86" align="center" height="400px" style="border-radius:8px"/></div>
 
 ### [🎲 Sudoku OCR (2023)](https://github.com/Taliayaya/S3Project)
 
