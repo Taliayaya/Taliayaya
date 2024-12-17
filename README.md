@@ -3,6 +3,8 @@
 
 I'm a french third year college student at @Epita making my way here ! I would be glad to help you in your project or vice-versa !
 
+I am currently looking for a 6-month internship starting from August/September 2025. Do not hesitate to contact me.
+
 ### 🛠 Ongoing 
 
 Currently working on [Project 86](https://github.com/Taliayaya/Project-86), an open-source fan game on the universe of the 86:Eighty-Six series, featuring an FPS and RTS mix
