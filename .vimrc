@@ -1,81 +1,125 @@
-"##  My vimrc
+" ~/.vimrc
 
-"# UTF-8 
-set encoding=utf-8
+" set the runtime path to include Vundle and initialize
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
-"# Indentation
+" echo ">^.^<"
 
-set autoindent
-set shiftwidth=3
-syntax enable
+
+" All of your Plugins must be added before the following line
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+
 set wrap
-set tabstop=4
-
-"foldinnnnnnnng
-augroup vimrc
-	au BufReadPre * setlocal foldmethod=indent
-	au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
-
-"# Interface 
-
-set wildmenu
-set wildmode=full
-" For beautiful numbers on the left~~
-set relativenumber 
 set number
-
-"# Protect me
-set confirm 
-
-"# File Tree
-" To manage & open file efficently !
-
-" Open files in a new vertical split (2)
-" new tab (3)
-let g:netrw_browse_split=2
-
-" Set width of the directory explorer (%)
-let g:netrw_winsize=90
-
-" Enable Omnicomplete features
-set omnifunc=syntaxcomplete#Complete
+set cc=80
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 
+let mapleader = ","
+let maplocalleader = "\\"
+" per .git vim configs
+" just `git config vim.settings "expandtab sw=4 sts=4"` in a git repository
+" change syntax settings for this repository
 
-" ## added by OPAM user-setup for vim / base ## 93ee63e278bdfc07d1139a748ed3fff2 ## you can edit, but keep this line
-let s:opam_share_dir = system("opam config var share")
-let s:opam_share_dir = substitute(s:opam_share_dir, '[\r\n]*$', '', '')
+augroup create_working_env
+    " autocmd BufNewFile *_.c,*_.c 0r ~/.vim/skeleton_test.c
+    autocmd BufNewFile *.c  0r ~/.vim/skeleton.c
+    autocmd BufNewFile *.h  0r ~/.vim/skeleton.h
+    autocmd BufNewFile *.s  0r ~/.vim/skeleton.s
+    autocmd BufNewFile *.[ch] ks|call SetCopyright()|'s
+augroup END
 
-let s:opam_configuration = {}
+augroup file_keybinds
+    autocmd FileType c nnoremap <buffer> <localleader>c I//<esc>
+    autocmd FileType c iabbrev <buffer> iff if ()<left>
+    autocmd FileType sh,bash nnoremap <buffer> <localleader>c I# <esc>
+augroup END
 
-function! OpamConfOcpIndent()
-  execute "set rtp^=" . s:opam_share_dir . "/ocp-indent/vim"
-endfunction
-let s:opam_configuration['ocp-indent'] = function('OpamConfOcpIndent')
+fun SetCopyright()
+    if line("$") > 40
+        let l = 40
+    else
+        let l = line("$")
+    endif
+    silent! exe "1," . l . "g/date: /s/date: .*/date:    " . strftime("%Y %b %d")
+    let filename = expand('%:t:r')
+    let defkey = toupper(filename)
+    if expand('%:e') == "h"
+        exe "1," . l . 's/<header>/' . defkey . '/'
+    endif
 
-function! OpamConfOcpIndex()
-  execute "set rtp+=" . s:opam_share_dir . "/ocp-index/vim"
-endfunction
-let s:opam_configuration['ocp-index'] = function('OpamConfOcpIndex')
+    silent! exe "1," . l . 's/<file>/' . expand('%:t') . '/'
+    silent! exe "1," . l . 's/<filename>/' . filename . '/'
+endfun
 
-function! OpamConfMerlin()
-  let l:dir = s:opam_share_dir . "/merlin/vim"
-  execute "set rtp+=" . l:dir
-endfunction
-let s:opam_configuration['merlin'] = function('OpamConfMerlin')
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
-let s:opam_packages = ["ocp-indent", "ocp-index", "merlin"]
-let s:opam_check_cmdline = ["opam list --installed --short --safe --color=never"] + s:opam_packages
-let s:opam_available_tools = split(system(join(s:opam_check_cmdline)))
-for tool in s:opam_packages
-  " Respect package order (merlin should be after ocp-index)
-  if count(s:opam_available_tools, tool) > 0
-    call s:opam_configuration[tool]()
-  endif
-endfor
-" ## end of OPAM user-setup addition for vim / base ## keep this line
-" ## added by OPAM user-setup for vim / ocp-indent ## 251a4c470cec0c5f0e8996975b23949b ## you can edit, but keep this line
-if count(s:opam_available_tools,"ocp-indent") == 0
-  source "/home/taliayayah/.opam/default/share/ocp-indent/vim/indent/ocaml.vim"
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" https://github.com/tpope/vim-sensible
+Plugin 'tpope/vim-sensible'
+
+" https://github.com/ycm-core/YouCompleteMe
+Plugin 'ycm-core/YouCompleteMe'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+
+runtime! plugin/sensible.vim
+
+set encoding=utf-8 fileencodings=
+let g:ycm_enable_inlay_hints=1
+syntax on
+
+autocmd Filetype make setlocal noexpandtab
+
+set list listchars=tab:»·,trail:·
+
+
+" per .git vim configs
+" just `git config vim.settings "expandtab sw=4 sts=4"` in a git repository
+" change syntax settings for this repository
+let git_settings = system("git config --get vim.settings")
+if strlen(git_settings)
+        exe "set" git_settings
 endif
-" ## end of OPAM user-setup addition for vim / ocp-indent ## keep this line
+
+Plugin 'rhysd/vim-clang-format'
+
+" ===== KEYBINDS =====
+
+nnoremap gb :ls<CR>:b<Space>
+inoremap <leader>u <esc>ebveUea
+inoremap jk <esc> " Replace here to change your own Escape keybind
+inoremap <esc> <nop>
+nnoremap <s-Q> <nop>
+
+nnoremap <leader>u ebveUe
+
+nnoremap <leader>ev :vs $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <silent> <localleader>h <Plug>(YCMToggleInlayHints)
+
+" imap <c-u> <esc>vwU<esc>i
+iab #i #include
+iab #d #define
+iab io. <stdio.h>
+iab main int main(void)<cr>{<cr>return 0;<cr>}
+iab mainn int main(int argc, char **argv)<cr>{<cr>if (argc != 2) return 1; <cr>return 0;<cr>}
+iab #t #include <criterion/criterion.h><cr>#include <criterion/new/assert.h><cr><cr>TestSuite(
+
+iab stuct struct
+iab sutrc struct
+iab sturct struct
