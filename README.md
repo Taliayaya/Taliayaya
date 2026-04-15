@@ -1,7 +1,7 @@
 # Hello There, I’m Ilan Mayeux ✨
 ## Welcome to my Github Page ! 🎉
 
-I'm a french third year college student at @Epita making my way here ! I would be glad to help you in your project or vice-versa !
+I'm a french fourth year college student at @Epita specializing in real-time and embedded  systems. Most of my work is reattached to other entities but you may find some of my public or personal projects. I would be glad to help you in your project!
 
 ### 🛠 Ongoing 
 
@@ -16,10 +16,6 @@ Every day is a step forward
 - Making even more projects
 - Helping you all
 - Keep improving my C#, C++, C
-
-### 🎀 Last Project
-
-Last finished project is the 8086 Interpreter, my fourth semester project.
 
 <h2 align="center">📂 Projects</h2>
 
