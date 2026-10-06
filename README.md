@@ -25,6 +25,12 @@ An open-source fan game on the universe of the 86:Eighty-Six series, featuring a
 
 <div align="center"><img src="https://github.com/Taliayaya/Taliayaya/assets/84530101/76e09d9e-1f07-406e-8611-badc345f23c1" alt="Project 86" align="center" height="350px" style="border-radius:8px"/></div>
 
+### [🔲 ARM7DTMI Processor](https://github.com/Taliayaya/ARM7TDMI)
+
+Basic VHDL implementation of the monocycle ARM7TDMI.
+
+<div align="center"><img height="350" alt="ARM7DTMI Processor" src="https://github.com/user-attachments/assets/0a8fbb98-fb6f-432a-b6e2-79931085dec1" />
+</div>
 
 ### [🖥 8086 Interpreter (2024)](https://github.com/Taliayaya/8086-Interpreter)
 
